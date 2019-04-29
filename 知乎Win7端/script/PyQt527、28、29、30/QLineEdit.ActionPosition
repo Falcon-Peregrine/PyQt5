@@ -1,0 +1,41 @@
+QLineEdit.ActionPosition
+    QLineEdit.LeadingPosition
+    QLineEdit.TrailingPosition
+QLineEdit.EchoMode
+	QLineEdit.Normal
+	QLineEdit.NoEcho
+	QLineEdit.Password
+	QLineEdit.PasswordEchoOnEdit
+QLineEdit.text()
+QLineEdit.addAction(Action, QLineEdit.ActionPosition)
+QLineEdit.setAlignment(Qt.Alignment flag)
+QLineEdit.setCompleter()
+QLineEdit.deselect()
+QLineEdit.displayText()
+QLineEdit.setCursorPosition(QLineEdit.cursorPosition)
+QLineEdit.setMaxLength(int)
+QLineEdit.setReadOnly(bool)
+QLineEdit.setSelection(int start, int length)
+QLineEdit.setValidator()
+QLineEdit.setPlaceholderText(str)
+QLineEdit.isClearButtonEnabled(bool)
+QLineEdit.setInputMask()
+
+#Signal:
+selectionChanged()
+cursorPositionChanged(int old, int new)
+editingFinished()
+returnPressed()
+textChanged(str)
+textEdited(str)
+
+
+#function:
+clear()
+copy()
+cut()
+paste()
+redo()
+selectAll()
+setText(str)
+undo()

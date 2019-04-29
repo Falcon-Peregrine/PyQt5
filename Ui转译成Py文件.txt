@@ -1,0 +1,5 @@
+两种方法：
+
+c:/desktop: E:/Anaconda3/Lib/site-packages/PyQt4/pyuic4.bat -x oldfile.ui -o newfile.py
+
+pyuic5 -o newfile.py oldfile.ui
